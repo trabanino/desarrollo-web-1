@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>&#128512;</title>
+  <link rel="stylesheet" href="testing.css">
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+  </style>
+</head>
+
+<body>
+<h1 style="background-color: dodgerblue; color: white;">
+  Este texto está haciendo uso de un estilo embebido en un elemento HTML, en este caso, dentro de un div.
+  Esta es la manera menos recomendable de utilizar CSS dentro de un elemento HTML ya que cambiarlo resulta
+  complicado. Lo recomendable es que en caso de ser necesario un estilo único en una página se utilice el
+  style dentro del header como se hace en esta página para el background-color.
+</h1>
+
+<h1>
+  Absolutamente todo el texto esta cubierto de puntos porque se utilizo la etiqueta * en css
+</h1>
+
+<h1 class="main">
+  Pese a que todos los campos de texto en esta pagina son h1, este varia porque recibio un atributo class
+  conectado al .main marcado en el archivo CSS
+</h1>
+
+<p>Primer parrafo (normal)</p>
+<p id="color1">Segundo parrafo (con id)</p>
+<p class="color2">Tercer parrafo (con class) </p>
+<p>Cuarto parrafo (normal)</p>
+
+<p>Lo que esta pasando arriba es que se utiliza un ID para modificar un solo elemento de la pagina, mientras
+  que la class puede modificar varios. Pese a que el ID no es reutilizable, toma precedencia y es puesto por
+  encima de cualquier class</p>
+
+<footer>
+  <h1>Este texto está haciendo uso de la etiqueta link y haciendo referencia a un archivo CSS externo para
+    definir los colores dentro del footer.</h1>
+</footer>
+
+<a href="../index.html">Volver</a>
+</body>
+</html>

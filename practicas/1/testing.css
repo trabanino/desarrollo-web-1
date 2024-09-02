@@ -1,0 +1,25 @@
+/* Hola! Este es mi primer comentario en CSS */
+h1 { font-size: 16px
+}
+
+.main{
+    font-size: 20px;
+}
+
+#color1{
+    color: orangered;
+}
+
+.color2{
+    color: darkgoldenrod;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+}
+
+* {
+    border-width: 1px;
+    border-style: dotted;
+}
