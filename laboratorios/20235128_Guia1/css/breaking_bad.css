@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.top{
+    background-color: darkgreen;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitulo{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify-all;
+    max-width: 500px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista{
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: justify-all;
+    max-width: 500px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen{
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.parrafo{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify-all;
+    max-width: 500px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #004200;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#volver{
+    background-color: #007a00;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
