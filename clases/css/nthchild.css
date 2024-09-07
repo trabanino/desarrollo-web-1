@@ -1,0 +1,46 @@
+body{
+    background-color: lightblue;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    border: 3px solid gray;
+}
+
+li:nth-child(3n+3){
+    background-color: blueviolet;
+}
+
+table{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+thead{
+    background-color: darkmagenta;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(2n+2){
+    background-color: lightgray;
+}
+
+tbody tr:hover{
+    background-color: darkmagenta;
+    color: white;
+}

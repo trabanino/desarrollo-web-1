@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: green;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 20px 50px;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+section article {
+    width: 32.3%;
+    float:left;
+    border: 2px silver solid;
+    padding: 10px;
+    box-sizing: border-box; /Que no me agregue mas pixeles/
+    margin: 0 0.5%; /Para que se separen las cajas/
+    border-radius: 15px;
+    height: 400px;
+    overflow: auto;
+}
+
+article h3 {
+    color:green;
+    text-align: center;
+}
+
+article img {
+    width: 40%;
+    margin: 0 auto;
+    display: block; /Convierto en un elemento de linea a uno de bloque/
+}
