@@ -2,11 +2,30 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollo Web I</title>
+    <link rel="stylesheet" href="general/css.css">
 </head>
 <body>
-    <h1>Desarrollo Web I</h1>
-    <hr>
+
+<nav class="navbar">
+    <div class="logo">Desarrollo Web I</div>
+    <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clases/index.html">Clases</a></li>
+        <li><a href="laboratorios/index.html">Laboratorios</a></li>
+        <li><a href="proyectos/index.html">Proyectos</a></li>
+        <li><a href="practicas/index.html">Prácticas personales</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+
+<div class="content">
+    <h2>Hola</h2>
     <p>Este sitio contiene los proyectos, ejercicios y laboratorios realizados durante el curso por Benjamín Trabanino.</p>
     <p>Este curso es parte de la carrera de Ingeniería en Software y Negocios Digitales de la Escuela Superior de Economía y Negocios.</p>
     <hr>
@@ -15,7 +34,10 @@
         <li><a href="clases/index.html">Clases</a></li>
         <li><a href="laboratorios/index.html">Laboratorios</a></li>
         <li><a href="proyectos/index.html">Proyectos (vacío)</a></li>
-        <li><a href="practicas/index.html">Practicas personales</a></li>
+        <li><a href="practicas/index.html">Prácticas personales</a></li>
     </ul>
+</div>
+
+<script src="general/script.js"></script>
 </body>
 </html>
