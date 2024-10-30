@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="../img/js.png" sizes="32x32" type="image/png" />
+    <title>Formulario de Estudiante</title>
+</head>
+<body>
+<div class="container-lg">
+    <div class="row">
+        <div class="col-12 shadow-lg p-3 mt-5 bg-body rounded">
+            <h3>Ficha de Estudiante</h3>
+            <form id="studentForm">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="carnet" placeholder="Carnet" />
+                            <label for="carnet">
+                                Carnet
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="fullName" placeholder="Nombre Completo" />
+                            <label for="fullName">
+                                Nombre Completo
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="dui" placeholder="DUI" />
+                            <label for="dui">
+                                DUI
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="nit" placeholder="NIT" />
+                            <label for="nit">
+                                NIT
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <input type="date" class="form-control" id="birthDate" placeholder="Fecha de Nacimiento" />
+                            <label for="birthDate">
+                                Fecha de Nacimiento
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Correo Electrónico" />
+                            <label for="email">
+                                Correo Electrónico
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="age" placeholder="Edad" />
+                            <label for="age">
+                                Edad
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 pt-3">
+                        <button id="submitBtn" type="button" class="btn btn-success">
+                            Enviar
+                        </button>
+                        <button id="resetBtn" type="button" class="btn btn-danger">
+                            Limpiar
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 11">
+            <div id="notification" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Notificación</strong>
+                    <small>Ahora</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerrar"></button>
+                </div>
+                <div class="toast-body" id="notificationMessage">
+                    Mensaje de notificación
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../js/validacionEstudiante.js" defer></script>
+</body>
+</html>
